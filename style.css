@@ -1,0 +1,395 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif,"Microsoft YaHei";
+}
+a{
+    text-decoration: none;
+}
+header{
+    min-width:1200px;
+    padding:18px 0;
+    font-weight: 300;
+    clear: both;
+}
+header .navBar img{
+    width: 142px;
+}
+header .content-header{
+    height:34px;
+    line-height: 34px;
+    width: 1200px;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+header .navBar{
+    float: left;
+}
+header ul{
+    float:left;
+    margin-left:20%;
+}
+header ul li{
+    display: inline-block;
+    margin-left:30px;
+}
+header ul li a{
+    font-size: 14px;
+    color:#000;
+}
+header ul li.active a{
+    color: #00b4a5;
+}
+header .btn-grounp{
+    float:right;
+}
+header .btn-grounp a{
+    width:60px;
+    height:30px;
+}
+header .btn-grounp .btn:hover,header .btn-grounp .register{
+    background: #00b4a5;
+    color:#fff;
+}
+header .btn-grounp button{
+    width:60px;
+    height:30px;
+    border:none;
+    background: transparent;
+    font-size: 14px;
+    vertical-align: top;
+    cursor: pointer;
+}
+header .btn-grounp .btn{
+    border:1px solid lightgray;
+    border-radius: 2px;
+    margin-left:10px;
+}
+section .banner{
+    background: url(images/page-index-banner.jpg)no-repeat;
+    background-size: cover;
+    height:720px;
+    min-width:1100px;
+    margin:0 auto;
+}
+section .banner .content-banner{
+    width: 1100px;
+    margin: 0 auto;
+    padding-top:194px;
+}
+section .banner .banner-text{
+    font-size: 42px;
+    color: #fff;
+    font-weight: 200;
+}
+section .banner .banner-desc{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-weight: normal;
+}
+section .banner .banner-btns .btn{
+    display: inline-block;
+    width: 160px;
+    height: 46px;
+    line-height: 46px;
+    color: #fff;
+    border:1px solid lightgray;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 18px;
+    margin-right:20px;
+}
+section .banner .banner-btns .register-btn,section .banner .banner-btns .btn:hover {
+    background-color: #00b4a5;
+    border:none;
+}
+section .nav-comp{
+    background-color: #f5f7fa;
+    min-width: 1100px;
+    height: 140px;
+    padding-top: 24px;
+}
+section .nav-comp .content-wrap{
+    width:1100px;
+    margin:0 auto;
+}
+section .nav-comp a{
+    display: inline-block;
+    width:346px;
+}
+section .nav-comp .nav-comp-con{
+    display:inline-block;
+    margin-left:90px;
+}
+section .nav-comp .nav-comp-con h3{
+    font-size: 16px;
+    color:#3d4450;
+    margin-top:24px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+section .nav-comp .nav-comp-con p{
+    font-size: 14px;
+    color: #7b8390;
+}
+section .nav-comp .line{
+    width:1px;
+    height: 40px;
+    float:right;
+    background-color: #cfd5e0;
+    margin-top:25px;
+}
+section .product{
+    min-width:1100px;
+    position: relative;
+}
+section .product .content-wrap{
+    width:1100px;
+    margin:0 auto;
+}
+section  h2{
+    text-align: center;
+    color:#3d4450;
+    font-weight: normal;
+    font-size: 30px;
+    padding-top:120px;
+    position: relative;
+}
+section .product h2 span{
+    display: block;
+    background: url(images/global-sprite-201703.png)no-repeat 0 0;
+    background-size: 350px 550px;
+    width: 278px;
+    height: 44px;
+    position: absolute;
+    top:90px;
+    left:calc(50% - 135px);
+    z-index: -1;
+}
+section .service h2 span{
+    background: url(images/global-sprite-201703.png)no-repeat 0 -46px;
+    display: block;
+    background-size: 350px 550px;
+    width: 278px;
+    height: 44px;
+    position: absolute;
+    top:90px;
+    left:calc(50% - 120px);
+    z-index: -1;
+}
+section .h2-desc{
+    font-size: 16px;
+    color: #7b8390;
+    text-align: center;
+    margin-top:30px;
+}
+section .product .content-wrap ul{
+    width:90%;
+    padding-top:120px;
+    margin:0 auto;
+    text-align: center;
+}
+section .product .content-wrap li{
+    list-style: none;
+    display: inline-block;
+    width:16%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    color: #7b8390;
+    font-weight: 300;
+    cursor: pointer;
+    border-bottom:2px solid #f0f2f5;
+}
+section .product .content-wrap li:hover{
+    color: #00b4a5;
+}
+section .product .content-wrap li.active{
+    color: #00b4a5;
+}
+section .product .content-wrap .yggl{
+    margin-top:40px;
+}
+section .product .content-wrap .yggl .item-img{
+    float:left;
+}
+section .product .content-wrap .yggl .item-desc{
+    width:240px;
+    float:left;
+    margin-left:50px;
+}
+section .product .content-wrap .yggl h3{
+    padding-top:30px;
+    padding-bottom: 16px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #3d4450;
+}
+section .product .content-wrap .yggl p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 52px;
+    color: #7b8390;
+}
+section .product .content-wrap .yggl button{
+    border:1px solid #00b4a5;
+    width: 160px;
+    height: 44px;
+    color:#00b4a5;
+    background-color:#fff;
+    font-size: 16px;
+}
+section .product .content-wrap .yggl button:hover{
+    color:#fff;
+    background-color: #00b4a5;
+}
+
+section .wave1{
+    height: 427px;
+    background-position: 0 -854px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+section .wave2{
+    height: 427px;
+    background-position: 0 -427px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+section .service ul{
+    padding-top:50px;
+    width:1100px;
+    margin:0 auto 100px;
+}
+section .service ul li{
+    width:225px;
+    display: inline-block;
+    margin:0 23px;
+}
+section .service ul li h3{
+    font-size: 18px;
+    color:#3d4450;
+    font-weight: normal;
+    padding-bottom:19px;
+    padding-top: 40px;
+    text-align: center;
+}
+section .service ul li p{
+    font-size: 14px;
+    color: #7c8490;
+    line-height: 24px;
+    text-align: justify;
+    font-weight: 300;
+}
+section .user{
+    min-width: 1100px;
+    height: 410px;
+    background-color: #00b4a5;
+}
+section .content-user h2,.content-user p{
+    color:#fff;
+    z-index: 3;
+}
+section .user h2 span{
+    background: url(images/global-sprite-201703.png)no-repeat 0 -91px;
+    display: block;
+    background-size: 350px 550px;
+    width: 278px;
+    height: 44px;
+    position: absolute;
+    top:90px;
+    left:calc(50% - 135px);
+    z-index: -1;
+}
+section .card .card-item{
+    width:800px;
+    height:380px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin:0 auto;
+    margin-top:-150px;
+}
+section .card .card-item img{
+    display: block;
+    width: 150px;
+    height: 75px;
+    margin: 30px auto 25px;
+}
+section .card .card-item .card-text{
+    width:560px;
+    margin:0 auto;
+    text-align: justify;
+    line-height: 32px;
+    text-indent:2em;
+    font-size:14px;
+    color:#3d4450;
+    cursor: default;
+}
+section .card .card-item .card-person{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    padding-top:80px;
+}
+section .card .card-item .icon:before{
+    content: "\e9c4";
+}
+section .card .card-item .name{
+    font-size: 18px;
+    color:#3d4450;
+    margin-right:10px;
+}
+section .card .card-item .post{
+    font-size: 14px;
+    color: #959ba6;
+}
+section .partners{
+    min-width: 1100px;
+    margin-top:80px;
+    margin-bottom:50px;
+}
+section .partners img{
+    width:142px;
+    height:62px;
+}
+section .partners .logo-item2{
+    display: none;
+}
+section li:hover .logo-item1{
+    display: none;
+}
+section li:hover .logo-item2{
+    display: block;
+}
+section .partners  ul li{
+    display: inline-block;
+    width: 142px;
+    height: 62px;
+    margin:0 5px;
+}
+section ul{
+    width:1100px;
+    margin:0 auto;
+    padding:12px 0;
+}
+section .partners .logo-btn-wrap{
+    text-align: center;
+    margin-top:40px;
+}
+
+section .partners .logo-btn-wrap .logo-btn{
+    display: inline-block;
+    width:20px;
+    height:3px;
+    background-color: #cfd5e0;
+    margin-right:5px;
+}
+section .partners .logo-btn-wrap .active{
+    background-color: #00b4a5;
+}
